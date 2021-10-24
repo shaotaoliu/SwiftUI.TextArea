@@ -2,7 +2,9 @@
 
 Currently in SwiftUi, TextEditor does not support placeholder. This project shows how to create a TextArea which supports placeholder.
 
+```Swift
 TextArea(text: $address, placeholder: "Enter address")
+```
 
 Before the user enters any text in the TextArea, the placeholder text shows in it.
 
